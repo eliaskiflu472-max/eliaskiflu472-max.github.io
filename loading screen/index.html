@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Request Form</h1></header>
+  <form id="myForm">
+      <fieldset id="pers-info">
+          <legend>Personal Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required>
+         
+          <label>Grade:</label>
+          <label for="grade9"><input type="radio" name="grade" id="grade9" value="9th" required> 9th</label>
+          <label for="grade10"><input type="radio" name="grade" id="grade10" value="10th"> 10th</label>
+          <label for="grade11"><input type="radio" name="grade" id="grade11" value="11th"> 11th</label>
+          <label for="grade12"><input type="radio" name="grade" id="grade12" value="12th"> 12th</label>
+      </fieldset>
+     
+      <fieldset id="app-info">
+          <label for="date">Date:</label>
+          <input type="date" name="date" id="date" required>
+         
+          <label for="type">Request Type:</label>
+          <select name="type" id="type" required>
+              <option value="">--Select--</option>
+              <option value="1">Counselor</option>
+              <option value="2">Admin</option>
+              <option value="3">Teacher</option>
+              <option value="4">Security</option>
+          </select>
+          <button type="submit">Submit</button>
+      </fieldset>
+  </form>
+
+  <div class="loader-overlay" id="loaderOverlay">
+      <div class="loader"></div>
+  </div>
+
+  <script src="java.js"></script>
+</body>
+</html>
