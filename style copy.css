@@ -1,0 +1,28 @@
+.scoop {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    margin: 0 auto -20px auto; 
+    position: relative;
+    z-index: 1; 
+}
+
+.vanilla {
+    background-color: #f3e9d2; 
+}
+
+.chocolate {
+    background-color: #613e2e; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.cone {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;    
+    border-right: 50px solid transparent; 
+    border-top: 150px solid #c2b280; 
+    margin: 0 auto; 
+    position: relative;
+    z-index: 0; 
+}
