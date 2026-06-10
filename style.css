@@ -1,0 +1,18 @@
+.triangle{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-left: 25px solid transparent;
+	border-bottom: 50px solid #555;
+    animation-name: nothing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes nothing{
+    0%{width: 0;height:0;border-left: 25px;border-right: 25px;border-bottom: 50px solid ;border-radius: 0%;}
+    33.3333333333%{width: 100px;height:100px;border-left: 0;border-right: 0;border-bottom: 0px solid #555;border-radius: 0%;}
+    66.6666666666%{width:0px;border-left: 0;border-right: 0;border-bottom: 0px solid;border-radius: 50%;}
+    99.9999999999%{width: 0;height:0;border-left: 25px;border-right: 25px;border-bottom: 50px solid #555;border-radius: 0%;}
+
+}
+
